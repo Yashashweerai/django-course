@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 20px;
+        }
+
+        .left {
+            width: 30%;
+            height: 450px;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 70%;
+        }
+
+        .top {
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        .bottom {
+            display: flex;
+            gap: 20px;
+        }
+
+        .bottom .box {
+            flex: 1;
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        h2 {
+            margin-block-start: 0px;
+            margin-block-end: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>
+        Gallery
+    </h2>
+
+    <div class="gallery">
+
+        <div class="left"></div>
+
+        <div class="right">
+            <div class="top"></div>
+
+            <div class="bottom">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
