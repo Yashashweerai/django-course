@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .navbar {
+            width: 80%;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 15px auto;
+        }
+
+        .nav-container {
+            width: 90%;
+            display: flex;
+            gap: 70px;
+        }
+
+        .parent {
+            display: flex;
+            gap: 50px;
+        }
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 70%;
+        }
+
+        .top {
+            height: 150px;
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .bottom {
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            width: 20%;
+            height: 430px;
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Products</a>
+            <a class="nav-item">...</a>
+            <a class="nav-item">...</a>
+        </div>
+    </nav>
+
+    <div class="parent">
+        <div class="left">
+            <div class="top">
+                About Us
+            </div>
+            <div class="bottom">
+                Our Services
+            </div>
+        </div>
+        <div class="right">
+            Latest Updates
+        </div>
+    </div>
+</body>
+
+</html>

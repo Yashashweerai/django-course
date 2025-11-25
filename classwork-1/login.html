@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .parent {
+            display: flex;
+            height: 100vh;
+            padding: 40px;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 150px;
+            padding-top: 100px;
+        }
+
+        .left {
+            width: 40%;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .card {
+            width: 300px;
+            padding: 30px;
+            border-radius: 20px;
+            border: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .card input {
+            padding: 8px;
+            border: 2px solid #000;
+            border-radius: 8px;
+        }
+
+        .card button {
+            padding: 8px 16px;
+            border: 2px solid #000;
+            background: #fff;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 180px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="left">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequuntur sunt saepe, delectus rem
+                corporis similique distinctio laudantium obcaecati nisi enim veritatis, vero accusantium ad voluptate
+                fuga voluptates exercitationem ducimus.
+            </p>
+        </div>
+        <div class="card">
+            <label>Email</label>
+            <input type="email" />
+
+            <label>Password</label>
+            <input type="password" />
+
+            <button>Login</button>
+        </div>
+    </div>
+</body>
+
+</html>
