@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            margin: 100px 40px;
+        }
+
+        .popup {
+            width: 60%;
+            padding: 30px;
+            border: 2px solid black;
+            border-radius: 20px;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            border: 2px solid black;
+            border-radius: 30px;
+            background: none;
+            font-size: 20px;
+        }
+
+        .confirm-btn {
+            display: block;
+            margin: 50px auto 0 auto;
+            padding: 10px 25px;
+            border-radius: 15px;
+            border: 2px solid #333;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: white;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay" id="popupOverlay">
+        <div class="popup">
+            <button class="close-btn">x</button>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque ad accusantium blanditiis. Porro
+                pariatur laborum ea sapiente rem iste molestias, laudantium earum, cupiditate fuga accusamus doloribus
+                aut quod ab. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis molestiae ex voluptatem quia
+                placeat. Alias nulla obcaecati explicabo voluptatibus laboriosam, soluta aut harum ratione iste
+                provident recusandae itaque architecto quae.
+            </p>
+            <button class="confirm-btn">Confirm</button>
+        </div>
+    </div>
+</body>
+
+</html>

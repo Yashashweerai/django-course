@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 700px;
+        }
+
+        .search-box {
+            width: 80%;
+            margin: 0 auto 40px;
+            position: relative;
+            display: flex;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 45px 12px 15px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+
+        .search-box button {
+            position: absolute;
+            right: 1px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 43px;
+            height: 43px;
+            border-radius: 10px;
+            border: 1px solid #000;
+            background: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 18px;
+            margin-bottom: 25px;
+            border: 1px solid #000;
+            position: relative;
+
+            display: flex;
+            flex-direction: column;
+            height: 140px;
+        }
+
+        .card h3 {
+            margin: 0 0 10px;
+        }
+
+        .card p {
+            margin: 0 0 15px;
+            flex: 1;
+        }
+
+        .read-more {
+            padding: 8px 18px;
+            border-radius: 10px;
+            background: #fff;
+            border: 1px solid #000;
+            cursor: pointer;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button>
+                <span class="material-icons">search</span>
+            </button>
+
+        </div>
+        <div class="card">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vero eius nostrum debitis!
+                Doloribus autem aliquam cupiditate inventore architecto ratione, delectus quidem distinctio quibusdam
+            </p>
+            <button class="read-more">Read More</button>
+        </div>
+        <div class="card">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vero eius nostrum debitis!
+                Doloribus autem aliquam cupiditate inventore architecto ratione, delectus quidem distinctio quibusdam
+            </p>
+            <button class="read-more">Read More</button>
+        </div>
+        <div class="card">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vero eius nostrum debitis!
+                Doloribus autem aliquam cupiditate inventore architecto ratione, delectus quidem distinctio quibusdam
+            </p>
+            <button class="read-more">Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
